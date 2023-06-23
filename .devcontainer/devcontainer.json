@@ -11,7 +11,14 @@
         "vigoo.stylish-haskell"
       ],
       "settings": {
-        "haskell.formattingProvider": "stylish-haskell"
+          "haskell.formattingProvider": "stylish-haskell",
+          "haskell.manageHLS": "GHCup",
+	        "haskell.toolchain": {
+	          "hls": "1.7.0.0",
+	          "cabal": "recommended",
+	          "stack": null
+	        }
+	  
       }
     }
   }

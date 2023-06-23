@@ -57,6 +57,7 @@ library
                       , CustomTypes
                       , Homework1
                       , Homework2
+                      , TestMy
 
 test-suite week02-homework
     import:             common-all-tests
